@@ -11,7 +11,7 @@ A MATLAB/Simulink implementation of a PID-based cruise control system demonstrat
 
 ## About This Project
 
-I built this project to deepen my understanding of control systems and vehicle dynamics as part of my MEng Automotive Engineering studies. This is a personal project with The goal to design a cruise control system from scratch that could maintain a target speed while handling real-world disturbances like hills.
+I built this personal project to deepen my understanding of control systems and vehicle dynamics along side my MEng Automotive Engineering studies. The goal to design a cruise control system from scratch that could maintain a target speed while handling real-world disturbances like hills.
 
 ### What I Learned
 

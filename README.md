@@ -3,7 +3,7 @@
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b+-orange.svg)](https://www.mathworks.com/products/matlab.html)
 [![Simulink](https://img.shields.io/badge/Simulink-R2023b+-blue.svg)](https://www.mathworks.com/products/simulink.html)
 
-A MATLAB/Simulink implementation of a PID-based cruise control system demonstrating vehicle speed regulation and disturbance rejection.
+A MATLAB/Simulink implementation of a PID-based cruise control system demonstrating vehicle speed regulation and disturbance rejection — the same control principles used in production ADAS and autonomous vehicle systems.
 
 ![Velocity Response](cruise_control_figures/fig1_velocity_response.png)
 
@@ -11,7 +11,7 @@ A MATLAB/Simulink implementation of a PID-based cruise control system demonstrat
 
 ## About This Project
 
-I built this personal project to deepen my understanding of control systems and vehicle dynamics along side my MEng Automotive Engineering studies. The goal to design a cruise control system from scratch that could maintain a target speed while handling real-world disturbances like hills.
+I built this personal project to deepen my understanding of control systems and vehicle dynamics alongside my MEng Automotive Engineering studies. The goal was to design a cruise control system from scratch that could maintain a target speed while handling real-world disturbances like hills.
 
 ### What I Learned
 
@@ -76,11 +76,11 @@ The simulation demonstrates three phases:
 
 ### Transient Response
 
-| Metric | Value |
-|--------|-------|
-| Rise Time (10-90%) | 7.36 s |
-| Peak Overshoot | 32.0% |
-| Settling Time (2%) | 9.04 s |
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Rise Time (10-90%) | 7.36 s | |
+| Peak Overshoot | 32.0% | Trade-off for faster rise time; reducible with further Kd tuning |
+| Settling Time (2%) | 9.04 s | |
 
 ### Disturbance Rejection
 
@@ -109,7 +109,7 @@ The simulation demonstrates three phases:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/pid-cruise-control-simulink.git
+   git clone https://github.com/KyleWareEng/pid-cruise-control-simulink.git
    ```
 
 2. Open MATLAB and navigate to the project folder
@@ -190,9 +190,9 @@ If I continue developing this project, I'd like to add:
 
 **Kyle Ware**
 
-- 📧 Email: [kyle.ware@outlook.com]
-- 💼 LinkedIn: [linkedin.com/in/kyleaware/]
-- 🎓 MEng Automotive Engineering
+- Email: kyle.ware@outlook.com
+- LinkedIn: [linkedin.com/in/kyleaware](https://linkedin.com/in/kyleaware)
+- MEng Automotive Engineering
 
 Feel free to reach out if you have questions about this project!
 
